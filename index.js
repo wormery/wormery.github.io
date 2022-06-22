@@ -7,6 +7,7 @@ let newUrl = loca.href
   .replace("https://", "http://");
 
 const app = document.querySelector("#app");
+console.log(newUrl);
 app.src = newUrl;
 
 window.location.hash = "";
